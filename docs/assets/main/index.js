@@ -370,7 +370,7 @@ System.register("chunks:///_virtual/Footer.ts", ['./_rollupPluginModLoBabelHelpe
 System.register("chunks:///_virtual/DemoScene.ts", ['./_rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
   'use strict';
 
-  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Button, Node, director, Component;
+  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Button, Node, tween, Vec3, easing, director, Component;
 
   return {
     setters: [function (module) {
@@ -383,17 +383,20 @@ System.register("chunks:///_virtual/DemoScene.ts", ['./_rollupPluginModLoBabelHe
       _decorator = module._decorator;
       Button = module.Button;
       Node = module.Node;
+      tween = module.tween;
+      Vec3 = module.Vec3;
+      easing = module.easing;
       director = module.director;
       Component = module.Component;
     }],
     execute: function () {
-      var _dec, _class, _class2, _descriptor, _temp;
+      var _dec, _dec2, _class, _class2, _descriptor, _descriptor2, _temp;
 
       cclegacy._RF.push({}, "26b1c6B8shFgpoXdvSSqZlM", "DemoScene", undefined);
 
       var ccclass = _decorator.ccclass,
           property = _decorator.property;
-      var DemoScene = exports('DemoScene', (_dec = property(Button), ccclass(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
+      var DemoScene = exports('DemoScene', (_dec = property(Button), _dec2 = property(Node), ccclass(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
         _inheritsLoose(DemoScene, _Component);
 
         function DemoScene() {
@@ -407,6 +410,8 @@ System.register("chunks:///_virtual/DemoScene.ts", ['./_rollupPluginModLoBabelHe
 
           _initializerDefineProperty(_assertThisInitialized(_this), "btnNext", _descriptor, _assertThisInitialized(_this));
 
+          _initializerDefineProperty(_assertThisInitialized(_this), "handNode", _descriptor2, _assertThisInitialized(_this));
+
           return _this;
         }
 
@@ -416,20 +421,40 @@ System.register("chunks:///_virtual/DemoScene.ts", ['./_rollupPluginModLoBabelHe
           this.btnNext.node.on(Node.EventType.TOUCH_END, this.onTapNext, this);
         };
 
+        _proto.start = function start() {
+          // this.handNode
+          tween(this.handNode).sequence(tween().by(2, {
+            position: new Vec3(200, 0, 0)
+          }, {
+            easing: easing.sineInOut
+          }), tween().by(2, {
+            position: new Vec3(-200, 0, 0)
+          }, {
+            easing: easing.sineInOut
+          })).repeatForever().start();
+        };
+
         _proto.onTapNext = function onTapNext() {
           var sceneName = "tutorial-1";
           director.loadScene(sceneName);
         };
 
         return DemoScene;
-      }(Component), _temp), _descriptor = _applyDecoratedDescriptor(_class2.prototype, "btnNext", [_dec], {
+      }(Component), _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "btnNext", [_dec], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _class2)) || _class));
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "handNode", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      })), _class2)) || _class));
 
       cclegacy._RF.pop();
     }

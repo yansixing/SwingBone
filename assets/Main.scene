@@ -15134,7 +15134,7 @@
       "__id__": 312
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 381
@@ -15286,7 +15286,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": -100,
       "y": -488,
       "z": 0
     },
@@ -15381,7 +15381,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_alignFlags": 20,
+    "_alignFlags": 4,
     "_target": null,
     "_left": 0,
     "_right": 20,
@@ -15495,6 +15495,9 @@
     "__prefab": null,
     "btnNext": {
       "__id__": 370
+    },
+    "handNode": {
+      "__id__": 384
     },
     "_id": "1fjFTwdNhEQI8bd9tx5eXk"
   },

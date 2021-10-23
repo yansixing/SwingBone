@@ -12,8 +12,23 @@ export class DemoScene extends Component {
     @property(Button)
     btnNext: Button = null;
 
+    @property(Node)
+    handNode: Node = null;
+
+
     onLoad() {
         this.btnNext.node.on(Node.EventType.TOUCH_END, this.onTapNext, this);
+    }
+
+    start() {
+        // this.handNode
+        tween(this.handNode)
+            .sequence(
+                tween().by(2, { position: new Vec3(200, 0, 0) }, { easing: easing.sineInOut }),
+                tween().by(2, { position: new Vec3(-200, 0, 0) }, { easing: easing.sineInOut })
+            )
+            .repeatForever()
+            .start();
     }
 
     onTapNext() {
