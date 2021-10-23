@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b27c8c75-400f-4928-a7d6-408c12289854",
+  "files": [],
+  "subMetas": {
+    "c06cd": {
+      "importer": "gltf-mesh",
+      "uuid": "b27c8c75-400f-4928-a7d6-408c12289854@c06cd",
+      "displayName": "",
+      "id": "c06cd",
+      "name": "Wall 6.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a562b": {
+      "importer": "texture",
+      "uuid": "b27c8c75-400f-4928-a7d6-408c12289854@a562b",
+      "displayName": "",
+      "id": "a562b",
+      "name": "file3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/changjing/textures/wall 4.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c4398": {
+      "importer": "gltf-material",
+      "uuid": "b27c8c75-400f-4928-a7d6-408c12289854@c4398",
+      "displayName": "",
+      "id": "c4398",
+      "name": "qiang.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e87ad": {
+      "importer": "gltf-scene",
+      "uuid": "b27c8c75-400f-4928-a7d6-408c12289854@e87ad",
+      "displayName": "",
+      "id": "e87ad",
+      "name": "wall.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file3",
+        "uri": "db://assets/rooms/room1/changjing/textures/wall 4.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "b27c8c75-400f-4928-a7d6-408c12289854@e87ad",
+    "assetFinder": {
+      "meshes": [
+        "b27c8c75-400f-4928-a7d6-408c12289854@c06cd"
+      ],
+      "skeletons": [],
+      "textures": [
+        "b27c8c75-400f-4928-a7d6-408c12289854@a562b"
+      ],
+      "materials": [
+        "b27c8c75-400f-4928-a7d6-408c12289854@c4398"
+      ],
+      "scenes": [
+        "b27c8c75-400f-4928-a7d6-408c12289854@e87ad"
+      ]
+    }
+  }
+}

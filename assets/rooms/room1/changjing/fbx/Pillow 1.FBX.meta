@@ -1,0 +1,123 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e778e9af-5691-470d-a10d-f4de1e498cac",
+  "files": [],
+  "subMetas": {
+    "58409": {
+      "importer": "gltf-mesh",
+      "uuid": "e778e9af-5691-470d-a10d-f4de1e498cac@58409",
+      "displayName": "",
+      "id": "58409",
+      "name": "pillow 1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "32d96": {
+      "importer": "gltf-embeded-image",
+      "uuid": "e778e9af-5691-470d-a10d-f4de1e498cac@32d96",
+      "displayName": "",
+      "id": "32d96",
+      "name": "Map #0.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ab932": {
+      "importer": "texture",
+      "uuid": "e778e9af-5691-470d-a10d-f4de1e498cac@ab932",
+      "displayName": "",
+      "id": "ab932",
+      "name": "Map #0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e778e9af-5691-470d-a10d-f4de1e498cac@32d96"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3a710": {
+      "importer": "gltf-material",
+      "uuid": "e778e9af-5691-470d-a10d-f4de1e498cac@3a710",
+      "displayName": "",
+      "id": "3a710",
+      "name": "Pillow 3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49fd8": {
+      "importer": "gltf-scene",
+      "uuid": "e778e9af-5691-470d-a10d-f4de1e498cac@49fd8",
+      "displayName": "",
+      "id": "49fd8",
+      "name": "Pillow 1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #0",
+        "uri": "e778e9af-5691-470d-a10d-f4de1e498cac@32d96"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "e778e9af-5691-470d-a10d-f4de1e498cac@49fd8",
+    "assetFinder": {
+      "meshes": [
+        "e778e9af-5691-470d-a10d-f4de1e498cac@58409"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e778e9af-5691-470d-a10d-f4de1e498cac@ab932"
+      ],
+      "materials": [
+        "e778e9af-5691-470d-a10d-f4de1e498cac@3a710"
+      ],
+      "scenes": [
+        "e778e9af-5691-470d-a10d-f4de1e498cac@49fd8"
+      ]
+    }
+  }
+}

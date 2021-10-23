@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0",
+  "files": [],
+  "subMetas": {
+    "6117a": {
+      "importer": "gltf-mesh",
+      "uuid": "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@6117a",
+      "displayName": "",
+      "id": "6117a",
+      "name": "Books 1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "74e7e": {
+      "importer": "texture",
+      "uuid": "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@74e7e",
+      "displayName": "",
+      "id": "74e7e",
+      "name": "Map #2138382427.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/changjing/Textures/Books.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d24da": {
+      "importer": "gltf-material",
+      "uuid": "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@d24da",
+      "displayName": "",
+      "id": "d24da",
+      "name": "Books 1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f7dcc": {
+      "importer": "gltf-scene",
+      "uuid": "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@f7dcc",
+      "displayName": "",
+      "id": "f7dcc",
+      "name": "Books 1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #2138382427",
+        "uri": "db://assets/rooms/room1/changjing/Textures/Books.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@f7dcc",
+    "assetFinder": {
+      "meshes": [
+        "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@6117a"
+      ],
+      "skeletons": [],
+      "textures": [
+        "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@74e7e"
+      ],
+      "materials": [
+        "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@d24da"
+      ],
+      "scenes": [
+        "37bee8ed-4bff-46f6-9b7e-0acbc96e8ef0@f7dcc"
+      ]
+    }
+  }
+}

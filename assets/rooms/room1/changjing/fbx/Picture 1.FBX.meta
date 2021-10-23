@@ -1,0 +1,151 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3f5d6697-eb56-48f3-a819-23bf0f68ae5b",
+  "files": [],
+  "subMetas": {
+    "4c4d7": {
+      "importer": "gltf-mesh",
+      "uuid": "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@4c4d7",
+      "displayName": "",
+      "id": "4c4d7",
+      "name": "picture 1_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "aa75f": {
+      "importer": "texture",
+      "uuid": "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@aa75f",
+      "displayName": "",
+      "id": "aa75f",
+      "name": "Map #34966.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/changjing/Textures/wood 1.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4d842": {
+      "importer": "texture",
+      "uuid": "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@4d842",
+      "displayName": "",
+      "id": "4d842",
+      "name": "Map #34967.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/changjing/Textures/pictures 2.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3117d": {
+      "importer": "gltf-material",
+      "uuid": "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@3117d",
+      "displayName": "",
+      "id": "3117d",
+      "name": "picture wood.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "afd45": {
+      "importer": "gltf-material",
+      "uuid": "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@afd45",
+      "displayName": "",
+      "id": "afd45",
+      "name": "picture.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9392b": {
+      "importer": "gltf-scene",
+      "uuid": "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@9392b",
+      "displayName": "",
+      "id": "9392b",
+      "name": "Picture 1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #34966",
+        "uri": "db://assets/rooms/room1/changjing/Textures/wood 1.png"
+      },
+      {
+        "name": "Map #34967",
+        "uri": "db://assets/rooms/room1/changjing/Textures/pictures 2.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@9392b",
+    "assetFinder": {
+      "meshes": [
+        "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@4c4d7"
+      ],
+      "skeletons": [],
+      "textures": [
+        "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@aa75f",
+        "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@4d842"
+      ],
+      "materials": [
+        "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@3117d",
+        "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@afd45"
+      ],
+      "scenes": [
+        "3f5d6697-eb56-48f3-a819-23bf0f68ae5b@9392b"
+      ]
+    }
+  }
+}

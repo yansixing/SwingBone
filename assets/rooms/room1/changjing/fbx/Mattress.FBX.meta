@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb",
+  "files": [],
+  "subMetas": {
+    "19923": {
+      "importer": "gltf-scene",
+      "uuid": "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@19923",
+      "displayName": "",
+      "id": "19923",
+      "name": "Mattress.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4d8bc": {
+      "importer": "gltf-mesh",
+      "uuid": "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@4d8bc",
+      "displayName": "",
+      "id": "4d8bc",
+      "name": "mattress.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b7bb": {
+      "importer": "texture",
+      "uuid": "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@8b7bb",
+      "displayName": "",
+      "id": "8b7bb",
+      "name": "Map #7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/changjing/Textures/mattress.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "74cdb": {
+      "importer": "gltf-material",
+      "uuid": "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@74cdb",
+      "displayName": "",
+      "id": "74cdb",
+      "name": "mattress.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #7",
+        "uri": "db://assets/rooms/room1/changjing/Textures/mattress.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@19923",
+    "assetFinder": {
+      "meshes": [
+        "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@4d8bc"
+      ],
+      "skeletons": [],
+      "textures": [
+        "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@8b7bb"
+      ],
+      "materials": [
+        "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@74cdb"
+      ],
+      "scenes": [
+        "03fdd31d-1f90-48f0-b5dc-18c04f1e1afb@19923"
+      ]
+    }
+  }
+}

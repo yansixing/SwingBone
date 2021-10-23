@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2",
+  "files": [],
+  "subMetas": {
+    "37282": {
+      "importer": "gltf-mesh",
+      "uuid": "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@37282",
+      "displayName": "",
+      "id": "37282",
+      "name": "puff.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8c61e": {
+      "importer": "texture",
+      "uuid": "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@8c61e",
+      "displayName": "",
+      "id": "8c61e",
+      "name": "Map #1123511328.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/changjing/Textures/puff fabric.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a5c72": {
+      "importer": "gltf-material",
+      "uuid": "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@a5c72",
+      "displayName": "",
+      "id": "a5c72",
+      "name": "puff fabric.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cad44": {
+      "importer": "gltf-scene",
+      "uuid": "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@cad44",
+      "displayName": "",
+      "id": "cad44",
+      "name": "Puff.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #1123511328",
+        "uri": "db://assets/rooms/room1/changjing/Textures/puff fabric.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@cad44",
+    "assetFinder": {
+      "meshes": [
+        "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@37282"
+      ],
+      "skeletons": [],
+      "textures": [
+        "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@8c61e"
+      ],
+      "materials": [
+        "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@a5c72"
+      ],
+      "scenes": [
+        "b013fc58-f4cf-4fb1-8975-8fd2cc0a05d2@cad44"
+      ]
+    }
+  }
+}

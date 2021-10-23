@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a0a5967c-b777-410b-acf3-bf3b25f84799",
+  "files": [],
+  "subMetas": {
+    "31fa8": {
+      "importer": "gltf-mesh",
+      "uuid": "a0a5967c-b777-410b-acf3-bf3b25f84799@31fa8",
+      "displayName": "",
+      "id": "31fa8",
+      "name": "phone.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "74f24": {
+      "importer": "texture",
+      "uuid": "a0a5967c-b777-410b-acf3-bf3b25f84799@74f24",
+      "displayName": "",
+      "id": "74f24",
+      "name": "Map #117.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/ren/phone.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2cb5": {
+      "importer": "gltf-material",
+      "uuid": "a0a5967c-b777-410b-acf3-bf3b25f84799@e2cb5",
+      "displayName": "",
+      "id": "e2cb5",
+      "name": "phone.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "480a6": {
+      "importer": "gltf-scene",
+      "uuid": "a0a5967c-b777-410b-acf3-bf3b25f84799@480a6",
+      "displayName": "",
+      "id": "480a6",
+      "name": "phone.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #117",
+        "uri": "db://assets/rooms/room1/ren/phone.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "a0a5967c-b777-410b-acf3-bf3b25f84799@480a6",
+    "assetFinder": {
+      "meshes": [
+        "a0a5967c-b777-410b-acf3-bf3b25f84799@31fa8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a0a5967c-b777-410b-acf3-bf3b25f84799@74f24"
+      ],
+      "materials": [
+        "a0a5967c-b777-410b-acf3-bf3b25f84799@e2cb5"
+      ],
+      "scenes": [
+        "a0a5967c-b777-410b-acf3-bf3b25f84799@480a6"
+      ]
+    }
+  }
+}

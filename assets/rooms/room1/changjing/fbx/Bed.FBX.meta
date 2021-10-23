@@ -1,0 +1,177 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80",
+  "files": [],
+  "subMetas": {
+    "fe521": {
+      "importer": "gltf-mesh",
+      "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80@fe521",
+      "displayName": "",
+      "id": "fe521",
+      "name": "Bed.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "013d8": {
+      "importer": "gltf-mesh",
+      "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80@013d8",
+      "displayName": "",
+      "id": "013d8",
+      "name": "drawer A.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "889d2": {
+      "importer": "gltf-mesh",
+      "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80@889d2",
+      "displayName": "",
+      "id": "889d2",
+      "name": "drawer B.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac4d7": {
+      "importer": "gltf-mesh",
+      "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80@ac4d7",
+      "displayName": "",
+      "id": "ac4d7",
+      "name": "drawer C.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0427": {
+      "importer": "texture",
+      "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80@a0427",
+      "displayName": "",
+      "id": "a0427",
+      "name": "Map #8.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/changjing/Textures/white wood.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0e742": {
+      "importer": "gltf-material",
+      "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80@0e742",
+      "displayName": "",
+      "id": "0e742",
+      "name": "white wood-0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ef952": {
+      "importer": "gltf-material",
+      "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80@ef952",
+      "displayName": "",
+      "id": "ef952",
+      "name": "white wood-1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6286a": {
+      "importer": "gltf-scene",
+      "uuid": "fbd90571-7915-4ed1-bf96-2f8721846b80@6286a",
+      "displayName": "",
+      "id": "6286a",
+      "name": "Bed.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #8",
+        "uri": "db://assets/rooms/room1/changjing/Textures/white wood.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "fbd90571-7915-4ed1-bf96-2f8721846b80@6286a",
+    "assetFinder": {
+      "meshes": [
+        "fbd90571-7915-4ed1-bf96-2f8721846b80@fe521",
+        "fbd90571-7915-4ed1-bf96-2f8721846b80@013d8",
+        "fbd90571-7915-4ed1-bf96-2f8721846b80@889d2",
+        "fbd90571-7915-4ed1-bf96-2f8721846b80@ac4d7"
+      ],
+      "skeletons": [],
+      "textures": [
+        "fbd90571-7915-4ed1-bf96-2f8721846b80@a0427"
+      ],
+      "materials": [
+        "fbd90571-7915-4ed1-bf96-2f8721846b80@0e742",
+        "fbd90571-7915-4ed1-bf96-2f8721846b80@ef952"
+      ],
+      "scenes": [
+        "fbd90571-7915-4ed1-bf96-2f8721846b80@6286a"
+      ]
+    }
+  }
+}

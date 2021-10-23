@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6086237a-3084-4983-95b4-f73bad3163fb",
+  "files": [],
+  "subMetas": {
+    "d70e3": {
+      "importer": "gltf-mesh",
+      "uuid": "6086237a-3084-4983-95b4-f73bad3163fb@d70e3",
+      "displayName": "",
+      "id": "d70e3",
+      "name": "blanket.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b7bb": {
+      "importer": "texture",
+      "uuid": "6086237a-3084-4983-95b4-f73bad3163fb@8b7bb",
+      "displayName": "",
+      "id": "8b7bb",
+      "name": "Map #7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/rooms/room1/changjing/Textures/blanket.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "99baf": {
+      "importer": "gltf-material",
+      "uuid": "6086237a-3084-4983-95b4-f73bad3163fb@99baf",
+      "displayName": "",
+      "id": "99baf",
+      "name": "blanket.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "97dd3": {
+      "importer": "gltf-scene",
+      "uuid": "6086237a-3084-4983-95b4-f73bad3163fb@97dd3",
+      "displayName": "",
+      "id": "97dd3",
+      "name": "Blanket.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #7",
+        "uri": "db://assets/rooms/room1/changjing/Textures/blanket.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "6086237a-3084-4983-95b4-f73bad3163fb@97dd3",
+    "assetFinder": {
+      "meshes": [
+        "6086237a-3084-4983-95b4-f73bad3163fb@d70e3"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6086237a-3084-4983-95b4-f73bad3163fb@8b7bb"
+      ],
+      "materials": [
+        "6086237a-3084-4983-95b4-f73bad3163fb@99baf"
+      ],
+      "scenes": [
+        "6086237a-3084-4983-95b4-f73bad3163fb@97dd3"
+      ]
+    }
+  }
+}
